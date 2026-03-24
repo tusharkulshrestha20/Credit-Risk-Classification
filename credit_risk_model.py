@@ -17,7 +17,7 @@ Techniques:
   - Feature Importance (Random Forest)
 
 Author  : Tushar Kulshrestha
-GitHub  : github.com/tusharkulshrestha
+GitHub  : github.com/tusharkulshrestha20
 """
 
 import numpy as np
