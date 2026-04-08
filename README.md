@@ -1,6 +1,6 @@
 # Credit Risk Classification Model
 
-Supervised machine learning pipeline to predict loan default probability on structured lending data — covering feature engineering, dimensionality reduction, regularised regression, ensemble methods, and stratified cross-validation.
+Supervised machine learning pipeline to predict loan default probability on structured lending data ; covering feature engineering, dimensionality reduction, regularised regression, ensemble methods, and stratified cross-validation.
 
 ---
 
@@ -49,7 +49,7 @@ X  = df[FEATURES].values
 | `annual_inc` | Annual income |
 
 ### 3. Dimensionality Reduction
-PCA applied after standard scaling — retaining components that explain **95% of variance** (11 features → 10 components). Used as input for logistic regression models to reduce multicollinearity.
+PCA applied after standard scaling, retaining components that explain **95% of variance** (11 features → 10 components). Used as input for logistic regression models to reduce multicollinearity.
 
 ### 4. Regularisation
 - **Ridge (L2):** Shrinks all coefficients; handles correlated features
