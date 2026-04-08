@@ -22,7 +22,7 @@ Supervised machine learning pipeline to predict loan default probability on stru
 ## Methods
 
 ### 1. Data
-LendingClub-style structured loan dataset — 5,000 records, ~18% default rate (class-imbalanced).  
+LendingClub-style structured loan dataset: 5,000 records, ~18% default rate (class-imbalanced).  
 The script uses a reproducible synthetic dataset by default. To use real data, replace the `make_loan_data()` block with:
 
 ```python
